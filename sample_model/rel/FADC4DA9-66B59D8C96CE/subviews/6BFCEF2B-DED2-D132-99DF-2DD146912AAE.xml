@@ -33,5 +33,14 @@
 <point x="626" y="315"/>
 </points>
 </Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="872937FA-A845-DB54-E14A-D712A8F80BEB" otype="FKIndexAssociation" vid_source="4D5774CD-03C3-E20A-C570-C43530481117" vid_target="52A60B77-2A43-BDAD-B711-0B12257027C4">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="626" y="300"/>
+<point x="417" y="300"/>
+</points>
+</Connector>
 </connectors>
 </Diagram>
