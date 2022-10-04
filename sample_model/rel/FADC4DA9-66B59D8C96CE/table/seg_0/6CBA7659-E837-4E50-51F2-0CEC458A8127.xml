@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CBA7659-E837-4E50-51F2-0CEC458A8127" name="druga_tabela">
+<createdBy>Carbon</createdBy>
+<createdTime>2022-10-04 14:44:27 UTC</createdTime>
+<ownerDesignName>sample_model</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="AD662EDF-8D9D-C93C-2EA6-E831C181ABAE">
+<createdBy>Carbon</createdBy>
+<createdTime>2022-10-04 14:44:46 UTC</createdTime>
+<ownerDesignName>sample_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Moja_tabela_id" id="37F7256A-55CA-E6B4-975A-B73345CFF9FC">
+<createdBy>Carbon</createdBy>
+<createdTime>2022-10-04 14:47:08 UTC</createdTime>
+<ownerDesignName>sample_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82EF5952-20B4-1468-73C5-7FBDF2809EA8" referredColumn="3CB705C8-B3C4-CC79-8147-2F89F3E40AA0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D01B71CA-49F4-EA89-22FF-D5902A2E27EB" name="druga_tabela_PK">
+<createdBy>Carbon</createdBy>
+<createdTime>2022-10-04 14:44:46 UTC</createdTime>
+<ownerDesignName>sample_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD662EDF-8D9D-C93C-2EA6-E831C181ABAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01D07626-C669-7120-4310-11ED5F4CAF3E" name="druga_tabela_Moja_tabela_FK">
+<createdBy>Carbon</createdBy>
+<createdTime>2022-10-04 14:47:08 UTC</createdTime>
+<ownerDesignName>sample_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37F7256A-55CA-E6B4-975A-B73345CFF9FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
